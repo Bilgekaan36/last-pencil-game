@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LastPencilTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-05-16T05:57:38" hostname="MacBook-Pro-von-Bilgekaan.local" time="0.067">
+<testsuite name="LastPencilTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-05-16T17:00:47" hostname="MacBook-Pro-von-Bilgekaan.local" time="0.075">
   <properties/>
-  <testcase name="start" classname="LastPencilTest" time="0.067"/>
+  <testcase name="start" classname="LastPencilTest" time="0.075"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
 How many pencils would you like to use:
@@ -14,6 +14,14 @@ How many pencils would you like to use:
 Who will be the first (John, Jack):
 > John
 |||||
+John's turn:
+> 2
+|||
+Jack's turn:
+> 1
+||
+John's turn:
+> 2
 ?[1;31m
 Start test 3?[0m
 How many pencils would you like to use:
@@ -21,34 +29,188 @@ How many pencils would you like to use:
 Who will be the first (John, Jack):
 > John
 ||||||||||||||||||||
+John's turn:
+> 3
+|||||||||||||||||
+Jack's turn:
+> 2
+|||||||||||||||
+John's turn:
+> 3
+||||||||||||
+Jack's turn:
+> 1
+|||||||||||
+John's turn:
+> 2
+|||||||||
+Jack's turn:
+> 3
+||||||
+John's turn:
+> 3
+|||
+Jack's turn:
+> 3
 ?[1;31m
 Start test 4?[0m
 How many pencils would you like to use:
-> 300
+> 30
 Who will be the first (John, Jack):
 > John
-||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||
+John's turn:
+> 3
+|||||||||||||||||||||||||||
+Jack's turn:
+> 2
+|||||||||||||||||||||||||
+John's turn:
+> 3
+||||||||||||||||||||||
+Jack's turn:
+> 1
+|||||||||||||||||||||
+John's turn:
+> 2
+|||||||||||||||||||
+Jack's turn:
+> 3
+||||||||||||||||
+John's turn:
+> 3
+|||||||||||||
+Jack's turn:
+> 3
+||||||||||
+John's turn:
+> 2
+||||||||
+Jack's turn:
+> 1
+|||||||
+John's turn:
+> 2
+|||||
+Jack's turn:
+> 3
+||
+John's turn:
+> 2
 ?[1;31m
 Start test 5?[0m
+How many pencils would you like to use:
+> 15
+Who will be the first (John, Jack):
+> John
+|||||||||||||||
+John's turn:
+> 8
+|||||||
+Jack's turn:
+> 7
+?[1;31m
+Start test 6?[0m
 How many pencils would you like to use:
 > 5
 Who will be the first (John, Jack):
 > Jack
 |||||
+Jack's turn:
+> 2
+|||
+John's turn:
+> 1
+||
+Jack's turn:
+> 2
 ?[1;31m
-Start test 6?[0m
+Start test 7?[0m
 How many pencils would you like to use:
 > 20
 Who will be the first (John, Jack):
 > Jack
 ||||||||||||||||||||
+Jack's turn:
+> 3
+|||||||||||||||||
+John's turn:
+> 2
+|||||||||||||||
+Jack's turn:
+> 3
+||||||||||||
+John's turn:
+> 1
+|||||||||||
+Jack's turn:
+> 2
+|||||||||
+John's turn:
+> 3
+||||||
+Jack's turn:
+> 3
+|||
+John's turn:
+> 3
 ?[1;31m
-Start test 7?[0m
+Start test 8?[0m
 How many pencils would you like to use:
-> 300
+> 30
 Who will be the first (John, Jack):
 > Jack
-||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||
+Jack's turn:
+> 3
+|||||||||||||||||||||||||||
+John's turn:
+> 2
+|||||||||||||||||||||||||
+Jack's turn:
+> 3
+||||||||||||||||||||||
+John's turn:
+> 1
+|||||||||||||||||||||
+Jack's turn:
+> 2
+|||||||||||||||||||
+John's turn:
+> 3
+||||||||||||||||
+Jack's turn:
+> 3
+|||||||||||||
+John's turn:
+> 3
+||||||||||
+Jack's turn:
+> 2
+||||||||
+John's turn:
+> 1
+|||||||
+Jack's turn:
+> 2
+|||||
+John's turn:
+> 3
+||
+Jack's turn:
+> 2
+?[1;31m
+Start test 9?[0m
+How many pencils would you like to use:
+> 15
+Who will be the first (John, Jack):
+> Jack
+|||||||||||||||
+Jack's turn:
+> 8
+|||||||
+John's turn:
+> 7
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
