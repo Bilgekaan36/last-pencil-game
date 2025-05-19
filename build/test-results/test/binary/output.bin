@@ -12,85 +12,72 @@
 [1;31m
 Start test 2[0m
 (How many pencils would you like to use:
-> 0
-)The number of pencils should be positive
-> 0
-)The number of pencils should be positive
-> 0
-)The number of pencils should be positive
-> 0
-)The number of pencils should be positive
-> 0
-)The number of pencils should be positive
-[1;31m
-Start test 3[0m
-(How many pencils would you like to use:
 > a
 (The number of pencils should be numeric
 [1;31m
-Start test 4[0m
+Start test 3[0m
 (How many pencils would you like to use:
 > _
 (The number of pencils should be numeric
 [1;31m
-Start test 5[0m
+Start test 4[0m
 (How many pencils would you like to use:
 > test
 (The number of pencils should be numeric
 [1;31m
-Start test 6[0m
+Start test 5[0m
 (How many pencils would you like to use:
 > |
 (The number of pencils should be numeric
 [1;31m
-Start test 7[0m
+Start test 6[0m
 (How many pencils would you like to use:
 > |||||
 (The number of pencils should be numeric
 [1;31m
-Start test 8[0m
+Start test 7[0m
 (How many pencils would you like to use:
 >  
 (The number of pencils should be numeric
 [1;31m
-Start test 9[0m
+Start test 8[0m
 (How many pencils would you like to use:
 > -
 (The number of pencils should be numeric
 [1;31m
-Start test 10[0m
+Start test 9[0m
 (How many pencils would you like to use:
 > two
 (The number of pencils should be numeric
 [1;31m
-Start test 11[0m
+Start test 10[0m
 (How many pencils would you like to use:
 > 10g
 (The number of pencils should be numeric
 [1;31m
-Start test 12[0m
+Start test 11[0m
 (How many pencils would you like to use:
 > k5
 (The number of pencils should be numeric
 [1;31m
-Start test 13[0m
+Start test 12[0m
 (How many pencils would you like to use:
 > -0.2
 (The number of pencils should be numeric
 [1;31m
-Start test 14[0m
+Start test 13[0m
 (How many pencils would you like to use:
 > 0.3
 (The number of pencils should be numeric
 [1;31m
-Start test 15[0m
+Start test 14[0m
 (How many pencils would you like to use:
 > 1
 $Who will be the first (John, Jack):
 [1;31m
-Start test 16[0m
+Start test 15[0m
 (How many pencils would you like to use:
-> 5
+> 2
 $Who will be the first (John, Jack):
 > JohnJack
 !Choose between 'John' and 'Jack'
@@ -103,7 +90,7 @@
 > JohnJack
 !Choose between 'John' and 'Jack'
 > John
-|||||
+||
 John's turn!
 > 4
 !Possible values: '1', '2' or '3'
@@ -120,8 +107,26 @@
 > |||||
 !Possible values: '1', '2' or '3'
 > 2
+
+Jack won!
+[1;31m
+Start test 16[0m
+(How many pencils would you like to use:
+> 3
+$Who will be the first (John, Jack):
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> John
 |||
-Jack's turn!
+John's turn!
 > 4
 !Possible values: '1', '2' or '3'
 > a
@@ -138,81 +143,10 @@
 !Possible values: '1', '2' or '3'
 > 1
 ||
-John's turn!
-> 3
-Too many pencils were taken
-> 2
-
-Jack won!
-[1;31m
-Start test 17[0m
-(How many pencils would you like to use:
-> 20
-$Who will be the first (John, Jack):
-> JohnJack
-!Choose between 'John' and 'Jack'
-> JohnJack
-!Choose between 'John' and 'Jack'
-> JohnJack
-!Choose between 'John' and 'Jack'
-> JohnJack
-!Choose between 'John' and 'Jack'
-> JohnJack
-!Choose between 'John' and 'Jack'
-> John
-||||||||||||||||||||
-John's turn!
-> 4
-!Possible values: '1', '2' or '3'
-> a
-!Possible values: '1', '2' or '3'
-> 0
-!Possible values: '1', '2' or '3'
-> -1
-!Possible values: '1', '2' or '3'
-> _
-!Possible values: '1', '2' or '3'
-> |
-!Possible values: '1', '2' or '3'
-> |||||
-!Possible values: '1', '2' or '3'
-> 3
-|||||||||||||||||
 Jack's turn!
-> 4
-!Possible values: '1', '2' or '3'
-> a
-!Possible values: '1', '2' or '3'
-> 0
-!Possible values: '1', '2' or '3'
-> -1
-!Possible values: '1', '2' or '3'
-> _
-!Possible values: '1', '2' or '3'
-> |
-!Possible values: '1', '2' or '3'
-> |||||
-!Possible values: '1', '2' or '3'
-> 2
-|||||||||||||||
+1
+|
 John's turn!
-> 4
-!Possible values: '1', '2' or '3'
-> a
-!Possible values: '1', '2' or '3'
-> 0
-!Possible values: '1', '2' or '3'
-> -1
-!Possible values: '1', '2' or '3'
-> _
-!Possible values: '1', '2' or '3'
-> |
-!Possible values: '1', '2' or '3'
-> |||||
-!Possible values: '1', '2' or '3'
-> 3
-||||||||||||
-Jack's turn!
 > 4
 !Possible values: '1', '2' or '3'
 > a
@@ -228,42 +162,25 @@ Jack won!
 > |||||
 !Possible values: '1', '2' or '3'
 > 1
-|||||||||||
-John's turn!
-> 4
-!Possible values: '1', '2' or '3'
-> a
-!Possible values: '1', '2' or '3'
-> 0
-!Possible values: '1', '2' or '3'
-> -1
-!Possible values: '1', '2' or '3'
-> _
-!Possible values: '1', '2' or '3'
-> |
-!Possible values: '1', '2' or '3'
-> |||||
-!Possible values: '1', '2' or '3'
-> 2
 
-|||||||||
-Jack's turn!
+Jack won!
+[1;31m
+Start test 17[0m
+(How many pencils would you like to use:
 > 4
-!Possible values: '1', '2' or '3'
-> a
-!Possible values: '1', '2' or '3'
-> 0
-!Possible values: '1', '2' or '3'
-> -1
-!Possible values: '1', '2' or '3'
-> _
-!Possible values: '1', '2' or '3'
-> |
-!Possible values: '1', '2' or '3'
-> |||||
-!Possible values: '1', '2' or '3'
-> 3
-||||||
+$Who will be the first (John, Jack):
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> John
+||||
 John's turn!
 > 4
 !Possible values: '1', '2' or '3'
@@ -279,9 +196,12 @@ Jack won!
 !Possible values: '1', '2' or '3'
 > |||||
 !Possible values: '1', '2' or '3'
-> 3
+> 1
 |||
 Jack's turn!
+2
+|
+John's turn!
 > 4
 !Possible values: '1', '2' or '3'
 > a
@@ -296,10 +216,7 @@ Jack won!
 !Possible values: '1', '2' or '3'
 > |||||
 !Possible values: '1', '2' or '3'
-> 2
-|
-John's turn!
-> 2
+> 3
 Too many pencils were taken
 > 1
 
@@ -307,216 +224,6 @@ Jack won!
 [1;31m
 Start test 18[0m
 (How many pencils would you like to use:
-> 30
-$Who will be the first (John, Jack):
-> JohnJack
-!Choose between 'John' and 'Jack'
-> JohnJack
-!Choose between 'John' and 'Jack'
-> JohnJack
-!Choose between 'John' and 'Jack'
-> JohnJack
-!Choose between 'John' and 'Jack'
-> JohnJack
-!Choose between 'John' and 'Jack'
-> John
-||||||||||||||||||||||||||||||
-John's turn!
-> 4
-!Possible values: '1', '2' or '3'
-> a
-!Possible values: '1', '2' or '3'
-> 0
-!Possible values: '1', '2' or '3'
-> -1
-!Possible values: '1', '2' or '3'
-> _
-!Possible values: '1', '2' or '3'
-> |
-!Possible values: '1', '2' or '3'
-> |||||
-!Possible values: '1', '2' or '3'
-> 3
-|||||||||||||||||||||||||||
-Jack's turn!
-> 4
-!Possible values: '1', '2' or '3'
-> a
-!Possible values: '1', '2' or '3'
-> 0
-!Possible values: '1', '2' or '3'
-> -1
-!Possible values: '1', '2' or '3'
-> _
-!Possible values: '1', '2' or '3'
-> |
-!Possible values: '1', '2' or '3'
-> |||||
-!Possible values: '1', '2' or '3'
-> 2
-|||||||||||||||||||||||||
-John's turn!
-> 4
-!Possible values: '1', '2' or '3'
-> a
-!Possible values: '1', '2' or '3'
-> 0
-!Possible values: '1', '2' or '3'
-> -1
-!Possible values: '1', '2' or '3'
-> _
-!Possible values: '1', '2' or '3'
-> |
-!Possible values: '1', '2' or '3'
-> |||||
-!Possible values: '1', '2' or '3'
-> 3
-||||||||||||||||||||||
-Jack's turn!
-> 4
-!Possible values: '1', '2' or '3'
-> a
-!Possible values: '1', '2' or '3'
-> 0
-!Possible values: '1', '2' or '3'
-> -1
-!Possible values: '1', '2' or '3'
-> _
-!Possible values: '1', '2' or '3'
-> |
-!Possible values: '1', '2' or '3'
-> |||||
-!Possible values: '1', '2' or '3'
-> 1
-|||||||||||||||||||||
-John's turn!
-> 4
-!Possible values: '1', '2' or '3'
-> a
-!Possible values: '1', '2' or '3'
-> 0
-!Possible values: '1', '2' or '3'
-> -1
-!Possible values: '1', '2' or '3'
-> _
-!Possible values: '1', '2' or '3'
-> |
-!Possible values: '1', '2' or '3'
-> |||||
-!Possible values: '1', '2' or '3'
-> 2
-|||||||||||||||||||
-Jack's turn!
-> 4
-!Possible values: '1', '2' or '3'
-> a
-!Possible values: '1', '2' or '3'
-> 0
-!Possible values: '1', '2' or '3'
-> -1
-!Possible values: '1', '2' or '3'
-> _
-!Possible values: '1', '2' or '3'
-> |
-!Possible values: '1', '2' or '3'
-> |||||
-!Possible values: '1', '2' or '3'
-> 3
-||||||||||||||||
-John's turn!
-> 4
-!Possible values: '1', '2' or '3'
-> a
-!Possible values: '1', '2' or '3'
-> 0
-!Possible values: '1', '2' or '3'
-> -1
-!Possible values: '1', '2' or '3'
-> _
-!Possible values: '1', '2' or '3'
-> |
-!Possible values: '1', '2' or '3'
-> |||||
-!Possible values: '1', '2' or '3'
-> 3
-|||||||||||||
-Jack's turn!
-> 4
-!Possible values: '1', '2' or '3'
-> a
-!Possible values: '1', '2' or '3'
-> 0
-!Possible values: '1', '2' or '3'
-> -1
-!Possible values: '1', '2' or '3'
-> _
-!Possible values: '1', '2' or '3'
-> |
-!Possible values: '1', '2' or '3'
-> |||||
-!Possible values: '1', '2' or '3'
-> 3
-||||||||||
-John's turn!
-> 4
-!Possible values: '1', '2' or '3'
-> a
-!Possible values: '1', '2' or '3'
-> 0
-!Possible values: '1', '2' or '3'
-> -1
-!Possible values: '1', '2' or '3'
-> _
-!Possible values: '1', '2' or '3'
-> |
-!Possible values: '1', '2' or '3'
-> |||||
-!Possible values: '1', '2' or '3'
-> 2
-	||||||||
-Jack's turn!
-> 4
-!Possible values: '1', '2' or '3'
-> a
-!Possible values: '1', '2' or '3'
-> 0
-!Possible values: '1', '2' or '3'
-> -1
-!Possible values: '1', '2' or '3'
-> _
-!Possible values: '1', '2' or '3'
-> |
-!Possible values: '1', '2' or '3'
-> |||||
-!Possible values: '1', '2' or '3'
-> 3
-|||||
-John's turn!
-> 4
-!Possible values: '1', '2' or '3'
-> a
-!Possible values: '1', '2' or '3'
-> 0
-!Possible values: '1', '2' or '3'
-> -1
-!Possible values: '1', '2' or '3'
-> _
-!Possible values: '1', '2' or '3'
-> |
-!Possible values: '1', '2' or '3'
-> |||||
-!Possible values: '1', '2' or '3'
-> 3
-||
-Jack's turn!
-> 3
-Too many pencils were taken
-> 2
-
-John won!
-[1;31m
-Start test 19[0m
-(How many pencils would you like to use:
 > 5
 $Who will be the first (John, Jack):
 > JohnJack
@@ -529,9 +236,9 @@ John won!
 !Choose between 'John' and 'Jack'
 > JohnJack
 !Choose between 'John' and 'Jack'
-> Jack
+> John
 |||||
-Jack's turn!
+John's turn!
 > 4
 !Possible values: '1', '2' or '3'
 > a
@@ -548,6 +255,9 @@ John won!
 !Possible values: '1', '2' or '3'
 > 2
 |||
+Jack's turn!
+2
+|
 John's turn!
 > 4
 !Possible values: '1', '2' or '3'
@@ -563,18 +273,15 @@ John won!
 !Possible values: '1', '2' or '3'
 > |||||
 !Possible values: '1', '2' or '3'
-> 1
-||
-Jack's turn!
-> 3
-Too many pencils were taken
 > 2
+Too many pencils were taken
+> 1
 
-John won!
+Jack won!
 [1;31m
-Start test 20[0m
+Start test 19[0m
 (How many pencils would you like to use:
-> 20
+> 9
 $Who will be the first (John, Jack):
 > JohnJack
 !Choose between 'John' and 'Jack'
@@ -586,59 +293,9 @@ John won!
 !Choose between 'John' and 'Jack'
 > JohnJack
 !Choose between 'John' and 'Jack'
-> Jack
-||||||||||||||||||||
-Jack's turn!
-> 4
-!Possible values: '1', '2' or '3'
-> a
-!Possible values: '1', '2' or '3'
-> 0
-!Possible values: '1', '2' or '3'
-> -1
-!Possible values: '1', '2' or '3'
-> _
-!Possible values: '1', '2' or '3'
-> |
-!Possible values: '1', '2' or '3'
-> |||||
-!Possible values: '1', '2' or '3'
-> 3
-|||||||||||||||||
-John's turn!
-> 4
-!Possible values: '1', '2' or '3'
-> a
-!Possible values: '1', '2' or '3'
-> 0
-!Possible values: '1', '2' or '3'
-> -1
-!Possible values: '1', '2' or '3'
-> _
-!Possible values: '1', '2' or '3'
-> |
-!Possible values: '1', '2' or '3'
-> |||||
-!Possible values: '1', '2' or '3'
-> 2
-|||||||||||||||
-Jack's turn!
-> 4
-!Possible values: '1', '2' or '3'
-> a
-!Possible values: '1', '2' or '3'
-> 0
-!Possible values: '1', '2' or '3'
-> -1
-!Possible values: '1', '2' or '3'
-> _
-!Possible values: '1', '2' or '3'
-> |
-!Possible values: '1', '2' or '3'
-> |||||
-!Possible values: '1', '2' or '3'
-> 3
-||||||||||||
+> John
+
+|||||||||
 John's turn!
 > 4
 !Possible values: '1', '2' or '3'
@@ -655,8 +312,31 @@ John won!
 > |||||
 !Possible values: '1', '2' or '3'
 > 1
-|||||||||||
+	||||||||
 Jack's turn!
+3
+|||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 1
+||||
+Jack's turn!
+3
+|
+John's turn!
 > 4
 !Possible values: '1', '2' or '3'
 > a
@@ -672,6 +352,46 @@ John won!
 > |||||
 !Possible values: '1', '2' or '3'
 > 2
+Too many pencils were taken
+> 1
+
+Jack won!
+[1;31m
+Start test 20[0m
+(How many pencils would you like to use:
+> 13
+$Who will be the first (John, Jack):
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> John
+|||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 1
+||||||||||||
+Jack's turn!
+3
 
 |||||||||
 John's turn!
@@ -692,22 +412,8 @@ John won!
 > 3
 ||||||
 Jack's turn!
-> 4
-!Possible values: '1', '2' or '3'
-> a
-!Possible values: '1', '2' or '3'
-> 0
-!Possible values: '1', '2' or '3'
-> -1
-!Possible values: '1', '2' or '3'
-> _
-!Possible values: '1', '2' or '3'
-> |
-!Possible values: '1', '2' or '3'
-> |||||
-!Possible values: '1', '2' or '3'
-> 3
-|||
+1
+|||||
 John's turn!
 > 4
 !Possible values: '1', '2' or '3'
@@ -723,18 +429,35 @@ John won!
 !Possible values: '1', '2' or '3'
 > |||||
 !Possible values: '1', '2' or '3'
-> 2
-|
+> 3
+||
 Jack's turn!
-> 2
+1
+|
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 3
 Too many pencils were taken
 > 1
 
-John won!
+Jack won!
 [1;31m
 Start test 21[0m
 (How many pencils would you like to use:
-> 30
+> 17
 $Who will be the first (John, Jack):
 > JohnJack
 !Choose between 'John' and 'Jack'
@@ -746,25 +469,8 @@ John won!
 !Choose between 'John' and 'Jack'
 > JohnJack
 !Choose between 'John' and 'Jack'
-> Jack
-||||||||||||||||||||||||||||||
-Jack's turn!
-> 4
-!Possible values: '1', '2' or '3'
-> a
-!Possible values: '1', '2' or '3'
-> 0
-!Possible values: '1', '2' or '3'
-> -1
-!Possible values: '1', '2' or '3'
-> _
-!Possible values: '1', '2' or '3'
-> |
-!Possible values: '1', '2' or '3'
-> |||||
-!Possible values: '1', '2' or '3'
-> 3
-|||||||||||||||||||||||||||
+> John
+|||||||||||||||||
 John's turn!
 > 4
 !Possible values: '1', '2' or '3'
@@ -781,91 +487,9 @@ John won!
 > |||||
 !Possible values: '1', '2' or '3'
 > 2
-|||||||||||||||||||||||||
+|||||||||||||||
 Jack's turn!
-> 4
-!Possible values: '1', '2' or '3'
-> a
-!Possible values: '1', '2' or '3'
-> 0
-!Possible values: '1', '2' or '3'
-> -1
-!Possible values: '1', '2' or '3'
-> _
-!Possible values: '1', '2' or '3'
-> |
-!Possible values: '1', '2' or '3'
-> |||||
-!Possible values: '1', '2' or '3'
-> 3
-||||||||||||||||||||||
-John's turn!
-> 4
-!Possible values: '1', '2' or '3'
-> a
-!Possible values: '1', '2' or '3'
-> 0
-!Possible values: '1', '2' or '3'
-> -1
-!Possible values: '1', '2' or '3'
-> _
-!Possible values: '1', '2' or '3'
-> |
-!Possible values: '1', '2' or '3'
-> |||||
-!Possible values: '1', '2' or '3'
-> 1
-|||||||||||||||||||||
-Jack's turn!
-> 4
-!Possible values: '1', '2' or '3'
-> a
-!Possible values: '1', '2' or '3'
-> 0
-!Possible values: '1', '2' or '3'
-> -1
-!Possible values: '1', '2' or '3'
-> _
-!Possible values: '1', '2' or '3'
-> |
-!Possible values: '1', '2' or '3'
-> |||||
-!Possible values: '1', '2' or '3'
-> 2
-|||||||||||||||||||
-John's turn!
-> 4
-!Possible values: '1', '2' or '3'
-> a
-!Possible values: '1', '2' or '3'
-> 0
-!Possible values: '1', '2' or '3'
-> -1
-!Possible values: '1', '2' or '3'
-> _
-!Possible values: '1', '2' or '3'
-> |
-!Possible values: '1', '2' or '3'
-> |||||
-!Possible values: '1', '2' or '3'
-> 3
-||||||||||||||||
-Jack's turn!
-> 4
-!Possible values: '1', '2' or '3'
-> a
-!Possible values: '1', '2' or '3'
-> 0
-!Possible values: '1', '2' or '3'
-> -1
-!Possible values: '1', '2' or '3'
-> _
-!Possible values: '1', '2' or '3'
-> |
-!Possible values: '1', '2' or '3'
-> |||||
-!Possible values: '1', '2' or '3'
-> 3
+2
 |||||||||||||
 John's turn!
 > 4
@@ -885,22 +509,9 @@ John won!
 > 3
 ||||||||||
 Jack's turn!
-> 4
-!Possible values: '1', '2' or '3'
-> a
-!Possible values: '1', '2' or '3'
-> 0
-!Possible values: '1', '2' or '3'
-> -1
-!Possible values: '1', '2' or '3'
-> _
-!Possible values: '1', '2' or '3'
-> |
-!Possible values: '1', '2' or '3'
-> |||||
-!Possible values: '1', '2' or '3'
-> 2
-	||||||||
+1
+
+|||||||||
 John's turn!
 > 4
 !Possible values: '1', '2' or '3'
@@ -917,8 +528,687 @@ John won!
 > |||||
 !Possible values: '1', '2' or '3'
 > 3
-|||||
+||||||
 Jack's turn!
+1
+|||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 2
+|||
+Jack's turn!
+2
+|
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 3
+Too many pencils were taken
+> 1
+
+Jack won!
+[1;31m
+Start test 22[0m
+(How many pencils would you like to use:
+> 21
+$Who will be the first (John, Jack):
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> John
+|||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 1
+||||||||||||||||||||
+Jack's turn!
+3
+|||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 3
+||||||||||||||
+Jack's turn!
+1
+|||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 1
+||||||||||||
+Jack's turn!
+3
+
+|||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 1
+	||||||||
+Jack's turn!
+3
+|||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 2
+|||
+Jack's turn!
+2
+|
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 3
+Too many pencils were taken
+> 1
+
+Jack won!
+[1;31m
+Start test 23[0m
+(How many pencils would you like to use:
+> 101
+$Who will be the first (John, Jack):
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> John
+f|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 1
+e||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+3
+b|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 1
+a||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+3
+^|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 1
+]||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+3
+Z|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 3
+W||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+1
+V|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 2
+T|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+2
+R|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 2
+P|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+2
+N|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 1
+M||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+3
+J|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 3
+G||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+1
+F|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 2
+D|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+2
+B|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 1
+A||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+3
+>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 3
+;||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+1
+:|||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 2
+8|||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+2
+6|||||||||||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 2
+4|||||||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+2
+2|||||||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 2
+0|||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+2
+.|||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 2
+,|||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+2
+*|||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 2
+(|||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+2
+&|||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 2
+$|||||||||||||||||||||||||||||||||||
+Jack's turn!
+2
+"|||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 3
+||||||||||||||||||||||||||||||
+Jack's turn!
+1
+|||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 1
+||||||||||||||||||||||||||||
+Jack's turn!
+3
+|||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 2
+|||||||||||||||||||||||
+Jack's turn!
+2
+|||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 2
+|||||||||||||||||||
+Jack's turn!
+2
+|||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 1
+||||||||||||||||
+Jack's turn!
+3
+|||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 2
+|||||||||||
+Jack's turn!
+2
+
+|||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 2
+|||||||
+Jack's turn!
+2
+|||||
+John's turn!
 > 4
 !Possible values: '1', '2' or '3'
 > a
@@ -935,9 +1225,1135 @@ John won!
 !Possible values: '1', '2' or '3'
 > 3
 ||
+Jack's turn!
+1
+|
 John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
 > 3
 Too many pencils were taken
+> 1
+
+Jack won!
+[1;31m
+Start test 24[0m
+(How many pencils would you like to use:
+> 2
+$Who will be the first (John, Jack):
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> Jack
+||
+Jack's turn!
+1
+|
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 1
+
+Jack won!
+[1;31m
+Start test 25[0m
+(How many pencils would you like to use:
+> 3
+$Who will be the first (John, Jack):
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> Jack
+|||
+Jack's turn!
+2
+|
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 2
+Too many pencils were taken
+> 1
+
+Jack won!
+[1;31m
+Start test 26[0m
+(How many pencils would you like to use:
+> 4
+$Who will be the first (John, Jack):
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> Jack
+||||
+Jack's turn!
+3
+|
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 1
+
+Jack won!
+[1;31m
+Start test 27[0m
+(How many pencils would you like to use:
+> 5
+$Who will be the first (John, Jack):
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> Jack
+|||||
+Jack's turn!
+3
+||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
 > 2
 
 Jack won!
+[1;31m
+Start test 28[0m
+(How many pencils would you like to use:
+> 9
+$Who will be the first (John, Jack):
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> Jack
+
+|||||||||
+Jack's turn!
+2
+|||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 2
+|||||
+Jack's turn!
+2
+|||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 3
+
+Jack won!
+[1;31m
+Start test 29[0m
+(How many pencils would you like to use:
+> 13
+$Who will be the first (John, Jack):
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> Jack
+|||||||||||||
+Jack's turn!
+2
+|||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 3
+	||||||||
+Jack's turn!
+3
+|||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 1
+||||
+Jack's turn!
+3
+|
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 2
+Too many pencils were taken
+> 1
+
+Jack won!
+[1;31m
+Start test 30[0m
+(How many pencils would you like to use:
+> 17
+$Who will be the first (John, Jack):
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> Jack
+|||||||||||||||||
+Jack's turn!
+3
+||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 1
+|||||||||||||
+Jack's turn!
+2
+|||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 1
+||||||||||
+Jack's turn!
+1
+
+|||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 3
+||||||
+Jack's turn!
+1
+|||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 2
+|||
+Jack's turn!
+2
+|
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 2
+Too many pencils were taken
+> 1
+
+Jack won!
+[1;31m
+Start test 31[0m
+(How many pencils would you like to use:
+> 21
+$Who will be the first (John, Jack):
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> Jack
+|||||||||||||||||||||
+Jack's turn!
+1
+||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 3
+|||||||||||||||||
+Jack's turn!
+1
+||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 3
+|||||||||||||
+Jack's turn!
+2
+|||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 1
+||||||||||
+Jack's turn!
+1
+
+|||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 3
+||||||
+Jack's turn!
+1
+|||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 3
+||
+Jack's turn!
+1
+|
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 3
+Too many pencils were taken
+> 1
+
+Jack won!
+[1;31m
+Start test 32[0m
+(How many pencils would you like to use:
+> 101
+$Who will be the first (John, Jack):
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> JohnJack
+!Choose between 'John' and 'Jack'
+> Jack
+f|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+2
+d|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 1
+c||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+1
+b|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 2
+`|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+2
+^|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 2
+\|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+2
+Z|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 2
+X|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+2
+V|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 3
+S||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+1
+R|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 1
+Q||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+3
+N|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 3
+K||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+1
+J|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 3
+G||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+1
+F|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 2
+D|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+2
+B|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 1
+A||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+3
+>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 1
+=||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+3
+:|||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 3
+7||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+1
+6|||||||||||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 2
+4|||||||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+2
+2|||||||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 1
+1||||||||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+3
+.|||||||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 3
++||||||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+1
+*|||||||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 3
+'||||||||||||||||||||||||||||||||||||||
+Jack's turn!
+1
+&|||||||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 3
+#||||||||||||||||||||||||||||||||||
+Jack's turn!
+1
+"|||||||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 2
+ |||||||||||||||||||||||||||||||
+Jack's turn!
+2
+|||||||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 3
+||||||||||||||||||||||||||
+Jack's turn!
+1
+|||||||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 1
+||||||||||||||||||||||||
+Jack's turn!
+3
+|||||||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 1
+||||||||||||||||||||
+Jack's turn!
+3
+|||||||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 3
+||||||||||||||
+Jack's turn!
+1
+|||||||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 3
+||||||||||
+Jack's turn!
+1
+
+|||||||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 1
+	||||||||
+Jack's turn!
+3
+|||||
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 2
+|||
+Jack's turn!
+2
+|
+John's turn!
+> 4
+!Possible values: '1', '2' or '3'
+> a
+!Possible values: '1', '2' or '3'
+> 0
+!Possible values: '1', '2' or '3'
+> -1
+!Possible values: '1', '2' or '3'
+> _
+!Possible values: '1', '2' or '3'
+> |
+!Possible values: '1', '2' or '3'
+> |||||
+!Possible values: '1', '2' or '3'
+> 2
+Too many pencils were taken
+> 1
+
+Jack won!
+[1;31m
+Start test 33[0m
+(How many pencils would you like to use:
+> 0
+)The number of pencils should be positive
+> 0
+)The number of pencils should be positive
+> 0
+)The number of pencils should be positive
+> 0
+)The number of pencils should be positive
+> 0
+)The number of pencils should be positive

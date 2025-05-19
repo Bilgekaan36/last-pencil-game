@@ -1,13 +1,17 @@
 package lastpencil;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String[] players = {"John", "Jack"};
+        Random rng = new Random();
 
-        // 1. Anzahl der Stifte einlesen und validieren
+        final String HUMAN = "John";
+        final String BOT   = "Jack";
+
+        // 1) Anzahl der Stifte einlesen und validieren
         System.out.println("How many pencils would you like to use:");
         int pencils;
         while (true) {
@@ -24,59 +28,73 @@ public class Main {
             }
         }
 
-        // 2. Startspieler auswählen und validieren
+        // 2) Wer fängt an? (HUMAN oder BOT)
         System.out.println("Who will be the first (John, Jack):");
         String currentPlayer;
         while (true) {
             currentPlayer = scanner.nextLine();
-            if (currentPlayer.equals("John") || currentPlayer.equals("Jack")) {
+            if (currentPlayer.equals(HUMAN) || currentPlayer.equals(BOT)) {
                 break;
             }
             System.out.println("Choose between 'John' and 'Jack'");
         }
 
-        // 3. Spielschleife
+        // 3) Spielschleife
         while (pencils > 0) {
-            // 3.1 Anzeige der verbleibenden Stifte
+            // 3.1 Stifte anzeigen
             for (int i = 0; i < pencils; i++) {
                 System.out.print("|");
             }
             System.out.println();
 
-            // 3.2 Hinweis auf den Zug
+            // 3.2 Zug-Ankündigung
             System.out.println(currentPlayer + "'s turn!");
 
-            // 3.3 Einlesen und Validieren des Zuges
             int taken;
-            while (true) {
-                String move = scanner.nextLine();
-                if (!move.matches("\\d+")) {
-                    System.out.println("Possible values: '1', '2' or '3'");
-                    continue;
-                }
-                taken = Integer.parseInt(move);
-                if (taken < 1 || taken > 3) {
-                    System.out.println("Possible values: '1', '2' or '3'");
-                } else if (taken > pencils) {
-                    System.out.println("Too many pencils were taken");
+            if (currentPlayer.equals(BOT)) {
+                // Bot zieht
+                if (pencils % 4 == 1) {
+                    // losing position: zufällig 1..min(3,pencils)
+                    int maxTake = Math.min(3, pencils);
+                    taken = rng.nextInt(maxTake) + 1;
                 } else {
-                    break;
+                    // winning position: Rest %4 → 1
+                    int mod = pencils % 4;
+                    taken = (mod == 0) ? 3 : mod - 1;
+                }
+                System.out.println(taken);
+            } else {
+                // Mensch zieht
+                while (true) {
+                    String move = scanner.nextLine();
+                    if (!move.matches("\\d+")) {
+                        System.out.println("Possible values: '1', '2' or '3'");
+                        continue;
+                    }
+                    taken = Integer.parseInt(move);
+                    if (taken < 1 || taken > 3) {
+                        System.out.println("Possible values: '1', '2' or '3'");
+                    } else if (taken > pencils) {
+                        System.out.println("Too many pencils were taken");
+                    } else {
+                        break;
+                    }
                 }
             }
 
-            // 3.4 Stifte abziehen
+            // 3.3 Stifte abziehen
             pencils -= taken;
 
-            // 3.5 Prüfen, ob das Spiel endet
+            // 3.4 Prüfen auf Spielende
             if (pencils == 0) {
-                // Wer gerade gezogen hat, verliert → der andere gewinnt
-                String winner = currentPlayer.equals(players[0]) ? players[1] : players[0];
+                // Wer den letzten Stift nimmt, verliert → anderer gewinnt
+                String winner = currentPlayer.equals(HUMAN) ? BOT : HUMAN;
                 System.out.println(winner + " won!");
                 break;
             }
 
-            // 3.6 Spielerwechsel
-            currentPlayer = currentPlayer.equals(players[0]) ? players[1] : players[0];
+            // 3.5 Spieler wechseln
+            currentPlayer = currentPlayer.equals(HUMAN) ? BOT : HUMAN;
         }
 
         scanner.close();
